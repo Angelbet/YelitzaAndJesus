@@ -31,7 +31,7 @@ export default function Home() {
 
   gsap.registerPlugin(ScrollTrigger);
 
-  // Gallery
+  // Gallery 
   useEffect(() => {
     gsap.to(".effect_1", {
       x: -3700,
