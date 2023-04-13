@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: rgb(255 248 224 / 62%);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+body {
+  font-family: Figtree, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+img {
+  border: 0;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Quattrocento, sans-serif;
+  color: #000;
+  font-size: 25px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Quattrocento, sans-serif;
+  color: #000;
+  font-size: 50px;
+  line-height: 150%;
+  font-weight: 900;
+}
+
+#category h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Quattrocento, sans-serif;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+figure {
+  margin-bottom: 10px;
+  margin: 0px;
+}
+
+blockquote {
+  margin-bottom: 10px;
+  margin: 0 0 10px 0;
+  padding: 30px 20px;
+  border-left: 2px solid #000;
+  color: #000;
+  font-size: 24px;
+  line-height: 170%;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h5 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d5bd31;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf1bc;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media screen and (max-width: 991px) {
+  h6 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  blockquote {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  blockquote {
+    font-size: 18px;
+  }
+}
