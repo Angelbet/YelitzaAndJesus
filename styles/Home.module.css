@@ -99,10 +99,11 @@ h1.hero_title {
   height: 50px;
   border-radius: 500px;
   background-color: #eeb82c;
-  background-image: url(https://uploads-ssl.webflow.com/6329a2447290bd1aa8e143f1/6360c997adbd3b4dc67c0363_hero-text.jpg);
+  background-image: url(../public/images/Home/capsule.jpg);
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: #685db18a 0px 20px 36px 0px, #6b57e885 0px 0px 0px 1px;
 }
 
 .hero_sub_content {
@@ -202,7 +203,6 @@ a.book_now_link:hover {
   object-fit: cover;
   box-shadow: #b1a25d 0px 20px 36px 0px, #e8c057 0px 0px 0px 1px;
   transition: all 0.5s;
-  cursor: pointer;
 }
 
 
@@ -277,7 +277,6 @@ a.book_now_link:hover {
   object-fit: cover;
   box-shadow: #b1a25d 0px 20px 36px 0px, #e8c057 0px 0px 0px 1px;
   transition: all 0.5s;
-  cursor: pointer;
 }
 
 .top_circle_image:hover {
@@ -388,7 +387,6 @@ h4.last_heading {
   object-fit: cover;
   box-shadow: #b1a25d 0px 20px 36px 0px, #e8c057 0px 0px 0px 1px;
   transition: all 0.5s;
-  cursor: pointer;
 }
 
 .hero_image:hover {
@@ -626,7 +624,9 @@ h4.last_heading {
   position: relative;
   overflow: hidden;
   width: 100%;
+  height: 100%;
   padding-top: 56.25%;
+  border-radius: 3rem;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -670,6 +670,116 @@ h4.last_heading {
 }
 
 
+
+
+
+.practice_area_wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space_semi {
+  min-height: 50px;
+}
+
+.row {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.margin_left {
+  margin-left: 15px;
+}
+
+.wrapper_practice_area_content {
+  width: 100%;
+  max-width: 32%;
+  min-height: 1px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  position: relative;
+}
+
+.wrapper_practice_area_content.margin_left {
+  margin-left: auto;
+}
+
+.info {
+  max-width: 360px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.content_icon_wrapper {
+  float: left;
+  margin-top: 15px;
+  margin-right: 13px;
+}
+
+.description {
+  text-align: left;
+  overflow: hidden;
+}
+
+.description p {
+  max-width: 65ch;
+  color: #333333;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.7em;
+}
+
+.features_two_info_title {
+  color: #5c4e3d;
+  margin-top: .5rem;
+  margin-bottom: .875rem;
+}
+
+h4.features_two_info_title {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.wrapper_practice_area_content {
+  width: 100%;
+  max-width: 32%;
+  min-height: 1px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  position: relative;
+}
+
+.image_wrapper_center {
+  height: 600px;
+  /* max-width: 300px; */
+  /* min-height: 600px; */
+  /* margin: 60px auto; */
+  position: relative;
+  overflow: hidden;
+  box-shadow: #b1a25d 0px 40px 90px -20px, #b1a25d 0px 20px 70px -30px;
+  border-radius: 3rem;
+}
+
+.wrapper_practice_area_content.margin_right {
+  margin-right: auto;
+}
 
 /* ============================================
                       Ella
@@ -965,7 +1075,7 @@ p.left_aligned {
   z-index: 2;
   width: 274px;
   height: 317px;
-  background-image: url("https://assets.website-files.com/63d0fad7fc0a8ee33b7ee8d0/63d38d396e65a61566754aca_stylish-pools.png");
+  background-image: url(../public/images/Home/bio_1.jpg);
 }
 
 .overlapping_column_image {
@@ -989,7 +1099,7 @@ p.left_aligned {
 
 .overlapping_column_image {
   height: 560px;
-  background-image: url("https://assets.website-files.com/63d0fad7fc0a8ee33b7ee8d0/63d38d396e65a61566754aca_stylish-pools.png");
+  background-image: url(../public/images/Home/bio_2.jpg);
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1306,7 +1416,7 @@ p.left_aligned {
   z-index: 2;
   width: 274px;
   height: 317px;
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6065569a262af85f8b5139ae_alvin-mahmudov-NSVJAAXOYHs-unsplash.jpg");
+  background-image: url(../public/images/Home/bio_3.jpg);
 }
 
 .overlapping_back_image_div.overlapping_bottom_image_left {
@@ -1318,7 +1428,7 @@ p.left_aligned {
 }
 
 .overlapping_column_image.weddings {
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fdaa0abaa954cd419f965_thomas-ae-M-pNtlOX2f0-unsplash.jpg");
+  background-image: url(../public/images/Home/bio_4.jpg);
 }
 
 #history-2 ._2_columns {
@@ -1910,7 +2020,7 @@ p.left_aligned {
   }
 
   .video_contain {
-    height: auto;
+    height: 130%;
     padding-top: 56.25%;
   }
 
@@ -1922,6 +2032,11 @@ p.left_aligned {
   .section.padding_0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .image_wrapper_center {
+    height: 800px;
+    margin: 60px;
   }
 
   .section {
@@ -2059,6 +2174,22 @@ p.left_aligned {
   .overlapping_column_image.overlapping_front_weddings {
     width: 200px;
     height: 200px;
+  }
+
+  .wrapper_practice_area_content.margin_left {
+    margin-left: 0;
+  }
+
+  .wrapper_practice_area_content {
+    max-width: 100%;
+  }
+
+  .wrapper_practice_area_content {
+    max-width: 100%;
+  }
+
+  .wrapper_practice_area_content.margin_right {
+    margin-right: 0;
   }
 
   .overlapping_images_column {
@@ -2203,6 +2334,14 @@ p.left_aligned {
 @media screen and (max-width: 767px) {
   .page_wrapper {
     padding-top: 30px;
+  }
+
+  .wrapper_practice_area_content {
+    max-width: 100%;
+  }
+
+  .wrapper_practice_area_content {
+    max-width: 100%;
   }
 
   .hero_section {
@@ -2528,15 +2667,25 @@ p.left_aligned {
   .blog_rich_content h3 {
     font-size: 25px;
   }
+
   .blog_rich_content h4 {
     margin-bottom: 10px;
-}
+  }
 }
 
 @media screen and (max-width: 479px) {
   .hero_inner {
     padding-top: 0px;
     grid-row-gap: 20px;
+  }
+
+  .image_wrapper_center {
+    height: 800px;
+    margin: 10px;
+  }
+
+  .video_contain {
+    height: 100%;
   }
 
   .hero_movil {
@@ -2550,6 +2699,16 @@ p.left_aligned {
   .roadmap_shape_left {
     width: 150px;
     height: 200px;
+  }
+
+  .image_wrapper_center {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .info {
+    padding-top: 30px;
+    padding-bottom: 0;
   }
 
   .hero_top {
