@@ -168,7 +168,7 @@ export default function Home() {
                     </h1>
                     <p className={style.hero_sub_content}>
                       El pasado 18 de febrero del 2023 se llevo a cabo la Celebración Eclesiática
-                      entre Yelitza Angélica Becerra y Jesús Carballo en la Iglesia "La Ascensión del Señor"
+                      entre Yelitza Angélica Becerra y Jesús Carballo en la Iglesia &quot;La Ascensión del Señor&quot;
                       ubicada en la Urbanización Cumbres de Curumo en la ciudad de Caracas.
                     </p>
                     <Link
@@ -189,7 +189,6 @@ export default function Home() {
                       loading="eager"
                       alt="Hero Left Image"
                       className={style.hero_circle_image}
-                      sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, 96vw"
                     />
                   </div>
 
